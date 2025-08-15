@@ -1,0 +1,341 @@
+body{
+background-color: black;
+scroll-behavior: smooth;
+}
+.parent{
+    background-image: url(./images/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 590px;
+}
+.buttons{
+    display: flex;
+    margin-left: 400px;
+}
+.name{
+    color: white;
+    padding-left: 50px;
+    font-size: 40px;
+
+}
+nav{
+ position: fixed;
+ display: flex;
+ z-index: 1000;
+ height: 40px;
+ width: 100%;
+ padding: 20px;
+ background-color: rgba(17, 22, 17, 0.247);
+}
+.btn{
+
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(146, 137, 126, 0.178);
+    font-family: 'Segoe UI';
+    font-size: 15px;
+    
+}
+.btn:hover{
+    background-color: rgba(210, 203, 203, 0.584);
+}
+.btn a{
+transition: color 0.3s ease;
+text-decoration: none;
+color: white;
+}
+.btn:hover a{
+    color: rgb(146, 72, 72);  
+    text-decoration: none;
+}
+
+.me{
+    height: 150px;
+    width: 160px;
+    border-radius: 160px;
+    margin-left: 750px;
+    margin-top: 70px;
+}
+.intro{
+    color: white;
+    padding-left: 700px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+#typing{
+    font-size: 45px;
+    color: rgba(194, 64, 64, 0.833);
+}
+.A{
+    display: flex;
+margin-bottom: 20px;
+margin-left: 200px;
+}
+.B{
+   display: flex;
+margin-bottom: 20px;
+margin-left: 200px;
+}
+.C{
+    display: flex;
+   margin-bottom: 20px; 
+margin-left: 200px;   
+}
+.imgD{
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+    border-radius: 10px;
+     opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.imgD.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.imgE{
+    height: 150px;
+    width: 150px;
+    margin-left: 50px;
+      border-radius: 10px;
+       opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.imgE.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.imgF{
+    height: 150px;
+    width: 150px;
+      border-radius: 10px;
+       opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.imgF.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.imgG{
+    height: 150px;
+    width: 150px;
+    margin-left: 70px;
+    border-radius: 10px;
+     opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.imgG.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.parentA{
+    background-image: url(./images/f.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 550px;
+}
+
+.prj{
+    color: white;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+section {
+            min-height: 100vh;
+            padding-top: 60px; 
+        }
+ .logo{
+    height: 70px;
+    width: 70px;
+    margin-left: 40px;
+    margin-top: 20px;
+ }      
+ .childA{
+    display: flex;
+    margin-left: 260px;
+ } 
+ .childB{
+    display: flex;
+      margin-left: 260px;
+ }
+ .skill{
+    height: 140px;
+    width: 150px;
+    background-color: rgba(132, 142, 142, 0.24);
+    color: white;
+    margin: 30px 50px;
+    border-radius: 10px; 
+ }
+ .skill:hover{
+    background-color: rgba(255, 255, 255, 0.594);
+ }
+ .text{
+    text-align: center;
+    padding-top: 10px;
+ }
+ h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+ }
+ .parentB{
+    background-image: url(./images/g.jpg);
+    background-position:bottom;
+    background-size: cover;
+ }
+ .contact{
+    margin-left: 100px;
+ }
+ .inpA{
+    height: 20px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.427);
+    border: none;
+    color: white;
+ }
+ .inpB{
+    height:100px ;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.427);
+    border: none;
+    color: white;
+    resize: none;
+ }
+ .submit{
+    height: 40px;
+    width: 80px;
+    margin-left: 240px;
+    border-radius: 10px;
+   background-color: rgba(128, 128, 128, 0.427);
+    border: none;
+    color: white;
+ }
+ .submit:hover{
+    background-color: rgba(255, 255, 255, 0.546);
+ }
+ input::placeholder {
+  color: white; 
+   
+}
+textarea::placeholder {
+  color: white; 
+   
+}
+#contact-form {
+    display: flex;
+ }
+ .phn{
+    height: 450px;
+    width: 600px;
+    transform: rotateZ(-30deg);
+    margin-left: 100px;
+ }
+
+ /* Tablet screens */
+@media (max-width: 1024px) {
+    .buttons {
+        margin-left: auto;
+        margin-right: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .name {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .me {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .intro {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+  /* other devices */
+ @media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+    .buttons {
+        margin-left: 0;
+        margin-top: 10px;
+        gap: 10px;
+    }
+    .name {
+        padding-left: 0;
+        font-size: 24px;
+    }
+    .me {
+        height: 120px;
+        width: 120px;
+        margin-top: 30px;
+    }
+    .intro {
+        font-size: 18px;
+    }
+    #typing {
+        font-size: 28px;
+    }
+    
+    #contact-form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact {
+        margin-left: 0;
+    }
+    .phn {
+        transform: none;
+        margin-left: 0;
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* Very small mobile screens */
+@media (max-width: 480px) {
+    .btn {
+        width: 80px;
+        font-size: 12px;
+        padding: 5px;
+    }
+    .intro {
+        font-size: 16px;
+    }
+    #typing {
+        font-size: 22px;
+    }
+    .skill {
+        width: 120px;
+        height: 120px;
+    }
+    .logo {
+        height: 50px;
+        width: 50px;
+    }
+}

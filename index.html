@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "HtECVper78BOtm4yh",
+      });
+   })();
+</script>
+    <title>portfolio-Aleeza Amjad</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="parent">
+
+<nav >
+     <div class="name">ᴀʟᴇᴇᴢᴀ ᴀᴍᴊᴀᴅ</div>
+
+    <div class="buttons">
+    <div><button class="btn"><a href="#home"><b>Home</b></a></button></div>
+    <div><button class="btn"><a href="#projects"><b>Projects</b></a></button></div>
+    <div><button class="btn"><a href="#skills"><b>Skills</b></a></button></div>
+    <div><button class="btn"><a href="#contact-form"><b>Contact Us</b></a></button></div>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home">
+      
+     <img class="me" src="./images/me.jpeg" alt="">
+    <div class="intro">
+        <div>Hello! Myself <b>Aleeza Amjad</b></div>
+        <span>I'm a </span><span id="typing"></span>
+        <a href="alizaamjad597@gmail.com"></a>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="parentA">
+    <div class="A">
+        <img class="imgD" src="./images/1.jpeg" alt="">
+        <img class="imgE" src="./images/2.jpeg" alt="">
+    </div>
+
+    <div class="B">
+        <img class="imgF" src="./images/3.jpeg" alt="">
+        <div class="prj">Projects</div>
+        <img class="imgG" src="./images/4.jpeg" alt="">
+    </div>
+
+    <div class="C">
+        <img class="imgD" src="./images/5.jpeg" alt="">
+        <img class="imgE" src="./images/6.jpeg" alt="">
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="parentB">
+    
+    <h1>Skills</h1>
+
+<div class="childA">
+    <div class="skill">
+    <img class="logo"src="./images/html.png" alt="">
+    <div class="text">HTML</div>
+    </div>
+
+    <div class="skill">
+    <img class="logo"src="./images/css.png" alt="">
+    <div class="text">CSS</div>
+    </div>
+
+    <div class="skill">
+    <img class="logo" src="./images/java.png" alt="">
+    <div class="text">JAVASCRIPT</div>
+    </div>
+</div>
+ 
+<div class="childB">
+     
+    <div class="skill">
+    <img class="logo"src="./images/react.png" alt="">
+    <div class="text">REACT.JS</div>
+    </div>
+
+    <div class="skill">
+    <img class="logo"src="./images/node.png" alt="">
+    <div class="text">NODE.JS</div>
+    </div>
+
+    <div class="skill">
+    <img class="logo"src="./images/mongo.png" alt=""> 
+    <div class="text">mongoDB</div>
+    </div>
+</div>
+</section>
+
+<!-- Contact Section  -->
+<section id="contact-form">
+    <div class="contact">
+    <h1>Contact Me</h1>
+    <input class="inpA" name="from_name" type="text" id="name" placeholder="Your Name"><br>
+    <input class="inpA" name="from_email" type="email" id="email"  placeholder="Your Email"><br>
+     <textarea name="message" class="inpB" id="message" placeholder="Your message"></textarea><br>
+     <button type="submit" class="submit" onClick="sendMail()">Send</button>
+    </div>
+
+    <div>
+    <img class="phn" src="./images/phone.jpg" alt="">
+    </div>
+</section>
+      
+
+</div>  
+<script src="index.js"></script>  
+</body>
+</html>
